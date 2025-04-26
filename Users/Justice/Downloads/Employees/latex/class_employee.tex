@@ -1,0 +1,167 @@
+\doxysection{Employee Class Reference}
+\hypertarget{class_employee}{}\label{class_employee}\index{Employee@{Employee}}
+
+
+Represents an employee with a first name, last name, and salary.  
+
+
+
+
+{\ttfamily \#include $<$Employee.\+h$>$}
+
+Inheritance diagram for Employee\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_employee}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_employee_a003c7bd08c40924e381eb0750cbb906f}\label{class_employee_a003c7bd08c40924e381eb0750cbb906f} 
+{\bfseries Employee} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \doxylink{class_employee}{Employee}. Initializes first\+Name and last\+Name to empty strings, salary to 0.\+0. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_employee_a161a6b74b29e70f754b0cd0d79ffd4fd}{Employee}} (const std\+::string \&\mbox{\hyperlink{class_employee_ab9654732621cce6a1191049c72e504c1}{first\+Name}}, const std\+::string \&\mbox{\hyperlink{class_employee_adea5e4c46939ae6b94f512b139fb346f}{last\+Name}}, double \mbox{\hyperlink{class_employee_af4c8ca7eed66423641df90ba46be1378}{salary}})
+\begin{DoxyCompactList}\small\item\em Constructs an \doxylink{class_employee}{Employee} with given name and salary. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_employee_a6e3f5861a883a3547332606ac2334d4a}{set\+First\+Name}} (const std\+::string \&\mbox{\hyperlink{class_employee_ab9654732621cce6a1191049c72e504c1}{first\+Name}})
+\begin{DoxyCompactList}\small\item\em Sets the employee\textquotesingle{}s first name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_employee_a2dd124ac50733b48f73fbb1279df5a50}{set\+Last\+Name}} (const std\+::string \&\mbox{\hyperlink{class_employee_adea5e4c46939ae6b94f512b139fb346f}{last\+Name}})
+\begin{DoxyCompactList}\small\item\em Sets the employee\textquotesingle{}s last name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_employee_a1874b9c4d606ff5fe224d8446fc8c3f8}{set\+Salary}} (double \mbox{\hyperlink{class_employee_af4c8ca7eed66423641df90ba46be1378}{salary}})
+\begin{DoxyCompactList}\small\item\em Sets the employee\textquotesingle{}s salary. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_employee_a844a9229c94c2f2bafef4ebb8a311b8d}{get\+First\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the employee\textquotesingle{}s first name. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_employee_a8f84c9f8b72f8fc0f94e50385e005323}{get\+Last\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the employee\textquotesingle{}s last name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_employee_a046fa9b5f8785c8c97dcb38ee7e801f9}{get\+Salary}} () const
+\begin{DoxyCompactList}\small\item\em Gets the employee\textquotesingle{}s salary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_employee_ab9654732621cce6a1191049c72e504c1}\label{class_employee_ab9654732621cce6a1191049c72e504c1} 
+std\+::string {\bfseries first\+Name}
+\begin{DoxyCompactList}\small\item\em The employee\textquotesingle{}s first name. \end{DoxyCompactList}\item 
+\Hypertarget{class_employee_adea5e4c46939ae6b94f512b139fb346f}\label{class_employee_adea5e4c46939ae6b94f512b139fb346f} 
+std\+::string {\bfseries last\+Name}
+\begin{DoxyCompactList}\small\item\em The employee\textquotesingle{}s last name. \end{DoxyCompactList}\item 
+\Hypertarget{class_employee_af4c8ca7eed66423641df90ba46be1378}\label{class_employee_af4c8ca7eed66423641df90ba46be1378} 
+double {\bfseries salary}
+\begin{DoxyCompactList}\small\item\em The employee\textquotesingle{}s salary. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents an employee with a first name, last name, and salary. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_employee_a161a6b74b29e70f754b0cd0d79ffd4fd}\index{Employee@{Employee}!Employee@{Employee}}
+\index{Employee@{Employee}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{Employee()}{Employee()}}
+{\footnotesize\ttfamily \label{class_employee_a161a6b74b29e70f754b0cd0d79ffd4fd} 
+Employee\+::\+Employee (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{first\+Name}{, }\item[{const std\+::string \&}]{last\+Name}{, }\item[{double}]{salary}{}\end{DoxyParamCaption})}
+
+
+
+Constructs an \doxylink{class_employee}{Employee} with given name and salary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first\+Name} & The first name of the employee. \\
+\hline
+{\em last\+Name} & The last name of the employee. \\
+\hline
+{\em salary} & The initial salary of the employee. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_employee_a844a9229c94c2f2bafef4ebb8a311b8d}\index{Employee@{Employee}!getFirstName@{getFirstName}}
+\index{getFirstName@{getFirstName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getFirstName()}{getFirstName()}}
+{\footnotesize\ttfamily \label{class_employee_a844a9229c94c2f2bafef4ebb8a311b8d} 
+std\+::string Employee\+::get\+First\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets the employee\textquotesingle{}s first name. 
+
+\begin{DoxyReturn}{Returns}
+The employee\textquotesingle{}s first name. 
+\end{DoxyReturn}
+\Hypertarget{class_employee_a8f84c9f8b72f8fc0f94e50385e005323}\index{Employee@{Employee}!getLastName@{getLastName}}
+\index{getLastName@{getLastName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getLastName()}{getLastName()}}
+{\footnotesize\ttfamily \label{class_employee_a8f84c9f8b72f8fc0f94e50385e005323} 
+std\+::string Employee\+::get\+Last\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets the employee\textquotesingle{}s last name. 
+
+\begin{DoxyReturn}{Returns}
+The employee\textquotesingle{}s last name. 
+\end{DoxyReturn}
+\Hypertarget{class_employee_a046fa9b5f8785c8c97dcb38ee7e801f9}\index{Employee@{Employee}!getSalary@{getSalary}}
+\index{getSalary@{getSalary}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{getSalary()}{getSalary()}}
+{\footnotesize\ttfamily \label{class_employee_a046fa9b5f8785c8c97dcb38ee7e801f9} 
+double Employee\+::get\+Salary (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Gets the employee\textquotesingle{}s salary. 
+
+\begin{DoxyReturn}{Returns}
+The employee\textquotesingle{}s salary. 
+\end{DoxyReturn}
+\Hypertarget{class_employee_a6e3f5861a883a3547332606ac2334d4a}\index{Employee@{Employee}!setFirstName@{setFirstName}}
+\index{setFirstName@{setFirstName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setFirstName()}{setFirstName()}}
+{\footnotesize\ttfamily \label{class_employee_a6e3f5861a883a3547332606ac2334d4a} 
+void Employee\+::set\+First\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{first\+Name}{}\end{DoxyParamCaption})}
+
+
+
+Sets the employee\textquotesingle{}s first name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first\+Name} & New first name. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_employee_a2dd124ac50733b48f73fbb1279df5a50}\index{Employee@{Employee}!setLastName@{setLastName}}
+\index{setLastName@{setLastName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setLastName()}{setLastName()}}
+{\footnotesize\ttfamily \label{class_employee_a2dd124ac50733b48f73fbb1279df5a50} 
+void Employee\+::set\+Last\+Name (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{last\+Name}{}\end{DoxyParamCaption})}
+
+
+
+Sets the employee\textquotesingle{}s last name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em last\+Name} & New last name. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_employee_a1874b9c4d606ff5fe224d8446fc8c3f8}\index{Employee@{Employee}!setSalary@{setSalary}}
+\index{setSalary@{setSalary}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{setSalary()}{setSalary()}}
+{\footnotesize\ttfamily \label{class_employee_a1874b9c4d606ff5fe224d8446fc8c3f8} 
+void Employee\+::set\+Salary (\begin{DoxyParamCaption}\item[{double}]{salary}{}\end{DoxyParamCaption})}
+
+
+
+Sets the employee\textquotesingle{}s salary. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em salary} & New salary value. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Employees/\mbox{\hyperlink{_employee_8h}{Employee.\+h}}\item 
+Employees/\mbox{\hyperlink{_employee_8cpp}{Employee.\+cpp}}\end{DoxyCompactItemize}
